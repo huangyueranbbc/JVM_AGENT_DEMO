@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="JVMObjectSize:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JVMObjectSize_jar</output-path>
+    <root id="root">
+      <element id="archive" name="JVMObjectSize.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="JVM_AGENT_DEMO" />
+      </element>
+    </root>
+  </artifact>
+</component>
