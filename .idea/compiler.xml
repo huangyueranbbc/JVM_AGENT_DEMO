@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="JVM_AGENT_DEMO" />
         <module name="JVMObjectSize" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="JVM_AGENT_DEMO" target="1.7" />
       <module name="JVMObjectSize" target="1.7" />
     </bytecodeTargetLevel>
   </component>
