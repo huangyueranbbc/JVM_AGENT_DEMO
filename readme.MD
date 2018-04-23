@@ -1,4 +1,5 @@
 #JAVA AGENT DEMO  
+##Instrumentation  
 run:    
 1.创建MySizeOf工具类  
 2.META-INF/MANIFEST.MF添加Premain-Class: MySizeOf属性  
@@ -18,3 +19,9 @@ run result:
 一个ArrayList对象大小为：24  
 一个Object对象大小为：16  
 一个Long对象大小为：24  
+
+##JOL  
+官方的例子。做了点翻译。  
+基本操作就那么几个。      
+com.hyr.jol.demo.*  
+
